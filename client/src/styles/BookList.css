@@ -1,0 +1,167 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  background-color: rgb(30, 25, 25);
+  border-bottom: 1px solid #ddd;
+    position: sticky !important;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar-button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar-button:hover {
+  opacity: 0.8;
+}
+
+.book-list-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+
+.book-list-heading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.book-details {
+  position: relative;
+}
+
+.review-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+}
+
+.review-button:hover {
+  background-color: #0056b3;
+}
+
+.book-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.book-cover {
+  margin-right: 20px;
+}
+
+.book-image {
+  width: 150px;
+  height: auto;
+}
+
+.book-list-heading {
+  margin-bottom: 20px;
+}
+
+.no-books {
+  font-style: italic;
+}
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.book-item {
+  background: #e5e5e5;
+  /* Card background color */
+  border-radius: 8px;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, .3), inset 4px 4px 10px white;
+  overflow: hidden;
+  width: 280px;
+  /* Card width */
+  margin: 0 auto;
+  /* Center the card */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.book-item:hover {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -4px -4px 10px white;
+  transition: 0.2s;
+}
+.book-cover {
+  position: relative;
+  width: 100%;
+  padding-top: 150%;
+  overflow: hidden;
+}
+
+.book-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.book-details {
+  padding: 16px;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.review-button {
+  margin-top: 16px;
+  margin-left: 20px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+
+}
+
+.review-button:hover {
+  background-color: #0056b3;
+}

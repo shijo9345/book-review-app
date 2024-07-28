@@ -1,0 +1,60 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    padding: 20px;
+    border: 0.5px solid ;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 380px;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3), inset 4px 4px 10px white;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -4px -4px 10px white;
+  }
+  
+  .login-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -4px -4px 10px white ;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .login-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+    box-shadow: 15px 10px 15px rgba(0, 0, 0, .3), inset 4px 4px 10px white;
+  }
+  
+  .login-button:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -4px -4px 10px white;
+  }
+
+  
+  .login-message {
+    margin-top: 10px;
+    color: #333;
+  }
+  
